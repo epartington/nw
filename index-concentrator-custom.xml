@@ -81,8 +81,11 @@
 <key description="Destination NetName" format="Text" level="IndexValues" name="netname.dst" valueMax="1000" defaultAction="Closed"/>
 
 <!-- Override Default Index Levels -->
-<key description="Session Streams" format="Uint8" level="IndexValues" name="streams" valueMax="2" defaultAction="Closed"/>   
-<key description="Session Split count" format="Uint16" level="IndexKeys" name="session.split" defaultAction="Closed"/>  
+<key description="Session Streams" level="IndexValues" name="streams" valueMax="2" defaultAction="Closed"/>   
+<key description="Session Split count" level="IndexKeys" name="session.split" defaultAction="Closed"/> 
+<key description="SSL CA" level="IndexValues" name="ssl.ca" valueMax="100000" defaultAction="Closed"/>
+<key description="SSL Subject" level="IndexValues" name="ssl.subject" valueMax="100000" defaultAction="Closed"/>
+<key description="IP Aliases" level="IndexValues" name="alias.ip" valueMax="2500000" defaultAction="Closed"/>
 
 
 </language>
