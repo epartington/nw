@@ -83,9 +83,8 @@
 <!-- Override Default Index Levels -->
 <key description="Session Streams" level="IndexValues" name="streams" valueMax="2" defaultAction="Closed"/>   
 <key description="Session Split count" level="IndexKeys" name="session.split" defaultAction="Closed"/> 
-<key description="SSL CA" level="IndexValues" name="ssl.ca" valueMax="100000" defaultAction="Closed"/>
-<key description="SSL Subject" level="IndexValues" name="ssl.subject" valueMax="100000" defaultAction="Closed"/>
+<key description="SSL CA" level="IndexValues" name="ssl.ca" format="Text" valueMax="100000" defaultAction="Closed"/>
+<key description="SSL Subject" level="IndexValues" name="ssl.subject" format="Text" valueMax="100000" defaultAction="Closed"/>
 <key description="IP Aliases" level="IndexValues" name="alias.ip" valueMax="2500000" defaultAction="Closed"/>
-
-
+<key description="TCP Flags Seen" level="IndexValues" name="tcp.flags.seen" valueMax="1000" defaultAction="Closed"/>
 </language>
