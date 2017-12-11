@@ -1,32 +1,14 @@
 --[[
 Version:	.1
-IR Content Tier: 1
 Date:	11/Nov/2014
 Author:	IR TEAM - firstresponse@rsa.com
 Description:
-Looks for for HTTP traffic with base64 encoded payloads
+
 
 References:
 
 Notes:
-Parser looks for base64 encoded data after http headers.  
-Uses Lua pattern matching to identify base64 like values.  
-Payload greater than or equal to 4 characters and all characters within the base64 allowed character set.
 
-Purposefully loose to match on 
-<HTTP HEADER END>
-BASE64DATA
-
-AND
-
-<HTTP HEADER END>
-VAR=BASE64DATA
-
-if you prefer a more strict base64 match uncomment: --return (s:len() >= 4) and (s:len() % 4 == 0) and not s:match('[^%a%d%+%/=]+')
-and then comment out: return (s:len() >= 4) and not s:match('[^%a%d%+%/=]+')
-
-Required Index Keys:
-ir.general
 ]]--
 local hostname_matches_referer = nw.createParser('Hostname Matches Referer','Checks if being referred to content on the same site.')
 local debugParser = false
