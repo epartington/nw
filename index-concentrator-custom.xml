@@ -87,4 +87,6 @@
 <key description="SSL Subject" level="IndexValues" name="ssl.subject" format="Text" valueMax="100000" defaultAction="Closed"/>
 <key description="IP Aliases" level="IndexValues" name="alias.ip" format="IPv4" valueMax="2500000" defaultAction="Closed"/>
 <key description="TCP Flags Seen" level="IndexValues" name="tcp.flags.seen" format="Text" valueMax="1000" defaultAction="Closed"/>
+<key description="Source City" level="IndexKeys" name="city.src" format="Text" defaultAction="Closed"/>
+<key description="Destination City" level="IndexKeys" name="city.dst" format="Text" defaultAction="Closed"/>
 </language>
