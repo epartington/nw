@@ -1,0 +1,14 @@
+SSL Fingerprinting Research
+
+References:
+JA3
+https://engineering.salesforce.com/open-sourcing-ja3-92c9e53c3c41
+https://github.com/salesforce/ja3
+
+SSL Fingerprinting - https://github.com/LeeBrotherston/tls-fingerprinting
+
+Initial fingerprint DB - https://github.com/trisulnsm/trisul-scripts/blob/master/lua/frontend_scripts/reassembly/ja3/prints/ja3fingerprint.json
+
+GREASE - https://tools.ietf.org/html/draft-davidben-tls-grease-00
+
+MD5 in Lua - https://github.com/kikito/md5.lua
