@@ -20,7 +20,7 @@ MD5 in Lua - https://github.com/kikito/md5.lua
 Notes:
 
 TODO: 
-Move lookup table to options file
+
 
 ]]--
 
@@ -97,7 +97,6 @@ end
 ir_sslfingerprint:setKeys({
 	nwlanguagekey.create("ssl.ja3"),
 	nwlanguagekey.create("client"),
-	--nwlanguagekey.create("ssl.raw"),
 	nwlanguagekey.create("analysis.service"),
 })
 
