@@ -1,0 +1,30 @@
+
+
+{
+    "displayName": "Investigate IP",
+    "cssClasses": [
+        "ip.src",
+        "ip-src",
+        "ip.dst",
+        "ip-dst",
+        "alias.ip",
+        "alias-ip"
+    ],
+    "description": "",
+    "type": "UAP.common.contextmenu.actions.URLContextAction",
+    "version": "1",
+    "modules": [
+        "investigation"
+    ],
+    "local": "false",
+    "groupName": "investigationGroup",
+    "urlFormat": "https://<SA_IP>/investigation/<DEVICE_ID>/navigate/query/ip.src%3d{0}%7C%7Cip.dst%3d{0}%7C%7Calias.ip%3d{0}",
+    "disabled": "",
+    "id": "NavigateIP",
+    "moduleClasses": [
+        "UAP.investigation.navigate.view.NavigationPanel",
+        "UAP.investigation.events.view.EventGrid"
+    ],
+    "openInNewTab": "true",
+    "order": ""
+}
