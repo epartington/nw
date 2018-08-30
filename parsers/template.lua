@@ -54,8 +54,8 @@ end
 -- declare what tokens and events we want to match.  
 -- These do not have to be exact matches but just get you close to the data you want.
 template:setCallbacks({
-	["^gh0st"] = template.ioc,
-	["<title>Virus/Spyware Download Blocked</title>"] = template.boc,
+	["^gh0st"] = template.IOC,
+	["<title>Virus/Spyware Download Blocked</title>"] = template.BOC,
 	["Dyngate"] = template.EOC,
 --	["^Host: "] = template.tokenReadDataExample,
 --	["^host: "] = template.tokenReadDataExample,
