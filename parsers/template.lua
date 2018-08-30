@@ -56,7 +56,7 @@ end
 template:setCallbacks({
 	["^gh0st"] = template.ioc,
 	["<title>Virus/Spyware Download Blocked</title>"] = template.boc,
-	["^Dyngate"] = template.EOC,
+	["Dyngate"] = template.EOC,
 --	["^Host: "] = template.tokenReadDataExample,
 --	["^host: "] = template.tokenReadDataExample,
 })
